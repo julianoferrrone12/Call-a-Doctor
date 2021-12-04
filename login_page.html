@@ -6,62 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script 
         src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
+        src="app.js" defer
     ></script>
     <link rel="stylesheet" href="\styles_login.css">
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" 
     rel="stylesheet">
+    
     <title>Call a Doctor</title>
 </head>
 <body>
     <div class="container">
-        <div class="forms-container">
+        <div class="form-container">
             <div class="signin-signup">
-                <forms class="sign-in-form">
+                <form action="" class="sign-in-form">
                     <h2>Sign in</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input  required type="text" name="Email" placeholder="Email">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input required type="password"  placeholder="Password">
+                        
                     </div>
-                    <input type="submit" value="Login" class="btn solid">
-
-                    <p class="social-text">You can sign in with another platforms</p>
+                    <a href="#">Forgot Password?</a>
+                    <a href="/index.html" type="submit" value="Login" class="btn solid">Login</a>
+                    
+                    <p class="social-text">You can sign in with other platforms</p>
                     <div class="social-media">
                         <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
                     </div>
-                </forms>
+                </form>
 
-                <forms class="sign-up-form">
+                <form action="" class="sign-up-form">
                     <h2>Sign up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input required type="text" placeholder="Full Name">
+                        <span class="error"></span>
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
-                        <input type="text" placeholder="Email">
+                        <input required type="email" placeholder="Email">
+                        <span class="error"></span>
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input required type="password" placeholder="Password">
+                        <span class="error"></span>
                     </div>
-                    <input type="submit" value="Sign up" class="btn solid">
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input required type="password" placeholder="Confirm Password">
+                        <span class="error"></span>
+                    </div>
+                    <button type="submit" class="btn solid">
+                        Enviar
+                    </button>
 
-                    <p class="social-text">You can sign up with another platforms</p>
+                    <p class="social-text">You can sign up with other platforms</p>
                     <div class="social-media">
                         <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
                         <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
                     </div>
-                </forms>
+                </form>
             </div>
         </div>
 
