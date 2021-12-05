@@ -29,8 +29,17 @@ git clone https://github.com/julianoferrrone12/Call-an-expert.git"
 ```shell script
 cd Call-an-expert
 ```
-- Type "code ." for open this project on Visual Studio Code
+- Type "code ." for open this project on Visual Studio Code 
 
+- Feito isso está tudo pronto para voce conseguir rodar esse programa em seu computador
+- Para rodar o projeto instale Live Serve, uma extensão do Visual Studio, com o VsCode aberto faça:
+   - Vá em Extensões;
+   - Pesquise por Live Server;
+   - Clique em instalar;
+   - Com ele instalado volte na vizualização dos arquivos do vsCode;
+   - Clique com o botão direito no arquivo "login_page.html";
+   - E clique na opção "abrir com o live server";
+    
 ## 🚩 The End
 
 🌟Antes de sair desse repositório não esqueça de deixar sua "star" ajuda muito e não custa nada!! 🌟
