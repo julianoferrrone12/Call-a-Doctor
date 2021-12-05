@@ -12,26 +12,73 @@
 }
 
 body {
-    background-color: #f0f2f5;
+    background-color: #f9f9f9;
 }
 
 header {
-    background: #0464a8;
-    padding: 1rem 0 1rem;
     
+    padding: 1rem 0 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-header h1 {
-    margin-left: 5%;
-    display: inline-flex;
-    font-family: 'Poppins', sans-serif;
-    font-size: 150%;
-    font-weight: 600;
-    color: white;
+.logo {
+    margin-top: -70px;
+    margin-left: -200px;
+}
+
+.logo-imagem {
+    width: 250px;
+    height: 250px;
 }
 
 .nav-list {
-    display: inline-flex;
-    margin-left: 80%;
+    margin-right: -200px;
 }
 
+.nav-list li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 2%;
+}
+
+.link {
+    text-decoration: none;
+    margin: 20px;
+    margin-right: 7px;
+    color: #0464a8;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #5CE1E6;
+    margin-top: -40px;
+}
+
+.subtitulo {
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 80px;
+}
+
+.cards {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.cards-container {
+    display: inline-block;
+}
