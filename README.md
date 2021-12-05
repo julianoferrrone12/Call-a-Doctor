@@ -26,7 +26,7 @@ git clone https://github.com/julianoferrrone12/Call-an-expert.git"
 ```
 - Move yourself to the appropriate directory: 
 ```shell script
-cd "Call-an-expert"
+cd Call-an-expert
 ```
 - Type "code ." for open this project on Visual Studio Code
 
