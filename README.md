@@ -20,9 +20,15 @@ Além disto é bom ter um editor de texto para manipular o código, te indico um
 
 ### Getting Started
 
-- Clone this repository: "git clone https://github.com/julianoferrrone12/Call-an-expert.git" <br />
-- Move yourself to the appropriate directory: "cd InstagramProject"
-- Type code. for open this project on Visual Studio Code
+- Clone this repository: 
+```shell script
+git clone https://github.com/julianoferrrone12/Call-an-expert.git"
+```
+- Move yourself to the appropriate directory: 
+```shell script
+cd "Call-an-expert"
+```
+- Type "code ." for open this project on Visual Studio Code
 
 ## 🚩 The End
 
