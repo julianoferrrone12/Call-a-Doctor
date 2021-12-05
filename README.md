@@ -7,7 +7,7 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [HTML5](hhttps://www.devmedia.com.br/o-que-e-o-html5/25820)
+- [HTML5](https://www.devmedia.com.br/o-que-e-o-html5/25820)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JS](https://www.javascript.com)
 
