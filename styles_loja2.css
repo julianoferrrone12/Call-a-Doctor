@@ -1,0 +1,52 @@
+:root {
+    --color-dark: #000;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    
+    padding: 1rem 0 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: -70px;
+    margin-left: -200px;
+}
+
+.logo-imagem {
+    width: 250px;
+    height: 250px;
+}
+
+.nav-list {
+    margin-right: -200px;
+}
+
+.nav-list li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 2%;
+}
+
+.link {
+    text-decoration: none;
+    margin: 20px;
+    margin-right: 7px;
+    color: #0464a8;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
