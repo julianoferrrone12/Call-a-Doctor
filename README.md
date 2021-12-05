@@ -7,8 +7,9 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/HTML5)
+- [HTML5](hhttps://www.devmedia.com.br/o-que-e-o-html5/25820)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JS](https://www.javascript.com)
 
 ### ✅ Requirements
 
@@ -18,7 +19,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina a seguinte f
 Além disto é bom ter um editor de texto para manipular o código, te indico um que eu gosto bastante:<br />
 - [VSCode](https://code.visualstudio.com/)
 
-### Getting Started
+### Getting Started 
 
 - Clone this repository: 
 ```shell script
